@@ -1,1 +1,132 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: transparent url('./assets/規則說明/bg.svg') 0% 20% no-repeat padding-box;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content {
+  border-radius: 30px;
+  background-color: #f8f8f8;
+  margin: 200px 0 0 0;
+  height: 400px;
+  -webkit-box-shadow: 8px 6px 9px rgba(0,0,0,0.25);
+  -moz-box-shadow: 8px 6px 9px rgba(0,0,0,0.25);
+  box-shadow: 8px 6px 9px rgba(0,0,0,0.25);
+}
+
+.title {
+background: transparent url('./assets/規則說明/banner.svg') 0% 0% no-repeat padding-box;
+background-size: cover;
+height: 70px;
+width: 200px;
+  p {
+    font-family: Microsoft JhengHei;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 16px 0 0 36px;
+    margin: 0;
+  }
+}
+
+p.bolder {
+  font-family: Microsoft JhengHei;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+p.bolder-gray {
+  font-family: Microsoft JhengHei;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #949494;
+}
+
+.hightline {
+  border-bottom: 3px rgb(40, 211, 40) solid;
+}
+
+.btn-back {
+  position: absolute;
+  top: 0;
+  left: 85%;
+
+  width: 250px;
+  height: 100px;
+  border-radius: 25px;
+  background-color: #f57d62;
+  outline: none;
+  font-size: 48px;
+  color: white;
+  font-family: Microsoft JhengHei;
+  font-weight: bolder;
+  -webkit-box-shadow: 0 8px 0px 4px rgba(186,56,13,0.74);
+  -moz-box-shadow: 0 8px 0px 4px rgba(186,56,13,0.74);
+  box-shadow: 0 8px 0px 4px rgba(186,56,13,0.74);
+  border: 0;
+  &:hover {
+    outline: none;
+  }
+  &:focus {
+    margin-top: 12px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  i {
+    color: white;
+    font-size: 48px;
+  }
+}
+
+.b-r-2{
+  border-right: 2px #7d7d7d solid;
+}
+
+.height-50 {
+  height: 50px;
+}
+
+.height-70 {
+  height: 70px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-t-36 {
+  margin-top: 36px;
+}
+
+.m-t-24 {
+  margin-top: 24px;
+}
+
+.m-t-12 {
+  margin-top: 12px;
+}
+
+.m-l-12 {
+  margin-left: 12px;
+}
+
+.p-t-0 {
+  padding-top: 0;
+}
+
+.p-t-12 {
+  padding-top: 12px;
+}
+
+.p-t-24 {
+  padding-top: 24px;
+}
+
+.iconImg {
+  padding: 0 0 4px 8px;
+  height: 35px;
+  width: 35px;
+}

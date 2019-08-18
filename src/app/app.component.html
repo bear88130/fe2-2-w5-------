@@ -1,20 +1,151 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container">
+  <div class="row content">
+    <div class="col-12">
+      <div class="row m-t-24">
+        <div class="col-3">
+          <div class="title">
+            <p>規則說明</p>
+          </div>
+        </div>
+        <div class="col-9">
+          <p class="bolder m-t-24">
+            好兄弟餓很久了...請幫助他吃到 <span class="hightline">適合的食物</span> ，並避開普渡禁忌用品！
+          </p>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-4">
+          <p class="bolder m-t-24 m-l-12">
+            可以拜的
+            <img class="iconImg" src="./assets/規則說明/ok.svg" alt="ok">
+          </p>
+        </div>
+        <div class="col-4">
+          <p class="bolder m-t-24">
+            不能拜的
+            <img class="iconImg" src="./assets/規則說明/no.svg" alt="no">
+          </p>
+        </div>
+        <div class="col-4">
+          <p class="bolder m-t-24">
+            特殊道具
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 b-r-2">
+          <div class="row">
+            <div class="col-6">
+              <div class="food-1-2">
+                <div class="row">
+                  <div class="col-4">
+                    <img class="height-50" src="./assets/規則說明/apple.svg" alt="apple">
+                  </div>
+                  <div class="col-8">
+                    <p class="bolder m-0">蘋果</p>
+                    <p class="bolder-gray m-0">平平安安</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="food-1-2">
+                <div class="row">
+                  <div class="col-4">
+                    <img class="height-50" src="./assets/規則說明/orange.svg" alt="orange">
+                  </div>
+                  <div class="col-8">
+                    <p class="bolder m-0">橘子</p>
+                    <p class="bolder-gray m-0">大吉大利</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="food-1-1 m-t-12">
+                <div class="row">
+                  <div class="col-5">
+                    <img class="height-70" src="./assets/規則說明/chicken.svg" alt="chicken">
+                  </div>
+                  <div class="col-7 p-t-24">
+                    <p class="bolder m-0">全雞</p>
+                    <p class="bolder-gray m-0">很好吃</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="food-1-1 m-t-12">
+                <div class="row">
+                  <div class="col-5">
+                    <img class="height-70" src="./assets/規則說明/rice.svg" alt="rice">
+                  </div>
+                  <div class="col-7 p-t-24">
+                    <p class="bolder m-0">飯</p>
+                    <p class="bolder-gray m-0">吃飽飽</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 b-r-2">
+          <div class="row">
+            <div class="col-12">
+              <div class="food-1-1 m-t-12">
+                <div class="row">
+                  <div class="col-5">
+                    <img class="height-70" src="./assets/規則說明/fruit.svg" alt="fruit">
+                  </div>
+                  <div class="col-7 p-t-0">
+                    <p class="bolder m-0">香蕉、李子、梨</p>
+                    <p class="bolder-gray m-0">台語諧音「招你來」，會招來太多好兄弟喔</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="food-1-1 m-t-12">
+                <div class="row">
+                  <div class="col-5">
+                    <img class="height-70" src="./assets/規則說明/flower.svg" alt="flower">
+                  </div>
+                  <div class="col-7 p-t-0">
+                    <p class="bolder m-0">劍蘭</p>
+                    <p class="bolder-gray m-0">會避煞，讓好兄弟吃不到東西</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="food-1-1 m-t-12">
+            <div class="row">
+              <div class="col-12">
+                <img class="height-70" src="./assets/規則說明/paper.svg" alt="paper">
+              </div>
+              <div class="col-12">
+                <p class="bolder m-0">金紙</p>
+              </div>
+              <div class="col-12">
+                <p class="bolder-gray m-0">防護罩功能，讓好兄弟暫時無敵</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <button class="btn-back">
+              <i class="fas fa-chevron-circle-left"></i>
+              主選單
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
