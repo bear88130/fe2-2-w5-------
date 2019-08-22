@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'w5';
   apple: string;
   apple2: string;
+  movie: string;
 }
