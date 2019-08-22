@@ -10,4 +10,5 @@ export class AppComponent {
   apple: string;
   apple2: string;
   movie: string;
+  movie2: string;
 }
