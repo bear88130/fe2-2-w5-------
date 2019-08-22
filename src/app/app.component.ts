@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'w5';
   flower: string;
+  flower2: string;
 }
