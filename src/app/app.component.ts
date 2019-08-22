@@ -11,6 +11,4 @@ export class AppComponent {
   apple2: string;
   movie: string;
   movie2: string;
-  flower: string;
-  flower2: string;
 }
